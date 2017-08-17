@@ -9,7 +9,8 @@ ev3dev in Visual Studio Code using the Python programming language.
 
 ## Prerequisites
 * LEGO MINDSTORMS EV3, Dexter Industries Brick Pi, Mindsensors PiStorms, or
-  FatcatLab EVB with [ev3dev] installed.
+  FatcatLab EVB with [ev3dev] installed. **Does not work with ev3dev-jessie!
+  Be sure to grab a snapshot image of ev3dev-stretch.**
 * A computer (Windows, macOS, or Linux) with [Visual Studio Code][code] and
   [git] or [GitHub Desktop][github] installed.
 
