@@ -40,7 +40,7 @@ def main():
     # set the console just how we want it
     reset_console()
     set_cursor(OFF)
-    set_font('Lat15-Terminus18')
+    set_font('Lat15-Terminus16')
 
     # print something to the screen of the device
     print('Hello World!')
