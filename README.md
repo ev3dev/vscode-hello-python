@@ -64,8 +64,8 @@ ev3dev in Visual Studio Code using the Python programming language.
 11. Ensure that your ev3dev device is turned on and has a network connection to
     the host computer. USB, Bluetooth, Wi-Fi or wired will work.
 
-12. Click the *+* icon to browse for your device and then select it from the
-    list.
+12. Click the text where it says "Click here to connect to a device".
+    A box will pop up that lists discovered devices. Select one.
 
     ![screenshot](.README/vscode-searching-for-devices.png)
 
@@ -74,18 +74,9 @@ ev3dev in Visual Studio Code using the Python programming language.
 
     ![screenshot](.README/vscode-home-robot.png)
 
-14. Click the *Download* button (next to the *+* button) to send the `hello.py`
-    file to the device.
+14. Press <kbd>F5</kbd> to download the program and run it.
 
-15. Expand the folders to find `hello.py` and click it.
-
-    ![screenshot](.README/vscode-hello-py.png)
-
-16. Click *Run* (or press <kbd>Enter</kbd>) to run the program.
-
-    ![screenshot](.README/vscode-run.png)
-
-17. The *Output* pane will automatically open and show the status of the
+15. The *Output* pane will automatically open and show the status of the
     program and any error/debug messages.
 
     ![screenshot](.README/vscode-output.png)
