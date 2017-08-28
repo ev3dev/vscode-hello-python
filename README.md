@@ -1,4 +1,4 @@
-# vscode-python-hello
+# vscode-hello-python
 Hello World for [ev3dev] + [Visual Studio Code][code] + [Python]
 
 
@@ -21,7 +21,7 @@ ev3dev in Visual Studio Code using the Python programming language.
 2.  Select *Clone Git repository...* in the *Welcome* tab.
 
     ![screenshot](.README/vscode-welcome-clone-git.png)
-3.  Enter `https://github.com/ev3dev/vscode-python-hello.git` as the repository
+3.  Enter `https://github.com/ev3dev/vscode-hello-python.git` as the repository
     name and press <kbd>Enter</kbd>.
 
     ![screenshot](.README/vscode-repository-url.png)
