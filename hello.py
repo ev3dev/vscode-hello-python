@@ -5,6 +5,11 @@ import os
 import sys
 import time
 
+# state constants
+ON = True
+OFF = False
+
+
 def debug_print(*args, **kwargs):
     '''Print debug messages to stderr.
 
@@ -12,13 +17,11 @@ def debug_print(*args, **kwargs):
     '''
     print(*args, **kwargs, file=sys.stderr)
 
+
 def reset_console():
     '''Resets the console to the default state'''
     print('\x1Bc', end='')
 
-# state constants
-ON = True
-OFF = False
 
 def set_cursor(state):
     '''Turn the cursor on or off'''
@@ -27,12 +30,14 @@ def set_cursor(state):
     else:
         print('\x1B[?25l', end='')
 
+
 def set_font(name):
     '''Sets the console font
 
     A full list of fonts can be found with `ls /usr/share/consolefonts`
     '''
     os.system('setfont ' + name)
+
 
 def main():
     '''The main function of our program'''
@@ -48,7 +53,8 @@ def main():
     # print something to the output panel in VS Code
     debug_print('Hello VS Code!')
 
-    # wait a bit so you have time to look at the display before the program exits
+    # wait a bit so you have time to look at the display before the program
+    # exits
     time.sleep(5)
 
 if __name__ == '__main__':
