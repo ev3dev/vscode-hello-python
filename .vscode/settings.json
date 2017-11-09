@@ -1,5 +1,4 @@
 {
     "files.eol": "\n",
-    "ev3devBrowser.visible": true,
     "ev3devBrowser.download.exclude": "{**/.*,LICENSE,README.md}"
 }
