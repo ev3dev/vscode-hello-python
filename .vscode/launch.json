@@ -2,10 +2,16 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Download and Run",
+            "name": "Download and Run hello.py",
             "type": "ev3devBrowser",
             "request": "launch",
             "program": "/home/robot/${workspaceRootFolderName}/hello.py"
+        },
+        {
+            "name": "Download and Run Current File",
+            "type": "ev3devBrowser",
+            "request": "launch",
+            "program": "/home/robot/${workspaceRootFolderName}/${relativeFile}"
         }
     ]
 }
