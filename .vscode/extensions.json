@@ -4,6 +4,7 @@
 	"recommendations": [
 		// Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
 		"dlech.ev3dev-browser",
+		"EditorConfig.EditorConfig",
 		"ms-python.python"
 	]
 }
