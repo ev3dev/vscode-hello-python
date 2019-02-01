@@ -75,10 +75,36 @@ ev3dev in Visual Studio Code using the Python programming language.
 18. Open the source code file, `hello.py`, to learn more.
 
 
-## TODO
+## Code Completion
 
-* Explain how to get code completion working
-* Explain how to install ev3dev-lang-python on the host computer
+To get code completion working and fix errors like "Unable to import 'ev3dev2.motor'"
+you will need to install Python and the `python-ev3dev` package on your computer.
+
+1.  If you don't already have Python installed, get it from https://python.org
+    or your favorite package manager (Chocolaty, Homebrew, Apt, etc.).
+
+2.  Then set up a virtual environment. You can type these commands on the
+    built-in terminal in VS Code.
+
+    On Windows (make sure you are using CMD, not PowerShell):
+
+        py -3 -m venv .venv
+        .venv\Scripts\activate
+        python -m pip install --upgrade pip
+        pip install python-ev3dev2
+
+    Or non-Windows:
+
+        python3 -m venv .venv
+        . .venv/bin/activate
+        pip install --upgrade pip
+        pip install python-ev3dev2
+
+3.  In the VS Code command pallete, run the `Python: Select Interpreter` command
+    to select the `.venv` folder that you just created.
+
+    ![screenshot](.README/vscode-python-select-interpreter.png)
+
 
 [ev3dev]: http://www.ev3dev.org
 [code]: https://code.visualstudio.com/
