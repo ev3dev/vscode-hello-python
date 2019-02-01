@@ -3,7 +3,7 @@
 	// for the documentation about the extensions.json format
 	"recommendations": [
 		// Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
-		"dlech.ev3dev-browser",
+		"ev3dev.ev3dev-browser",
 		"EditorConfig.EditorConfig",
 		"ms-python.python"
 	]
