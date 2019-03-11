@@ -5,13 +5,13 @@
             "name": "Download and Run hello.py",
             "type": "ev3devBrowser",
             "request": "launch",
-            "program": "/home/robot/${workspaceRootFolderName}/hello.py"
+            "program": "/home/robot/${workspaceFolderBasename}/hello.py"
         },
         {
             "name": "Download and Run Current File",
             "type": "ev3devBrowser",
             "request": "launch",
-            "program": "/home/robot/${workspaceRootFolderName}/${relativeFile}"
+            "program": "/home/robot/${workspaceFolderBasename}/${relativeFile}"
         }
     ]
 }
